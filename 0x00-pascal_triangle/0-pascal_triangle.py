@@ -3,10 +3,10 @@
 Creating a Pascal Triangle
 """
 
+
 def pascal_triangle(n):
     """
     Function to create pascal triangle.
-    
     Args:
     n (int): The number of rows in the triangle.
 
@@ -15,7 +15,7 @@ def pascal_triangle(n):
     """
 
     pascal_list = []
-    if (n<=0):
+    if (n <= 0):
         return pascal_list
     pascal_list.append([1])
     for i in range(1, n):
