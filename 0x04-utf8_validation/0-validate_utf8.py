@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def validUTF8(data):
     expected_bytes = 0
     for num in data:
